@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Renan Assis</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fontes do google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar">
+      <div class="navbar__content"> 
+        <a href="/">
+          <img src="assets/logo.svg" alt="Renan Assis"> <!--LOGO DA BARRA DE NAVEGAÇÃO CRIADO NO FIGMA-->
+          <ul class="navbar__links"> <!-- ACESSOS DO MENU DO PORTFOLIO-->
+            <!-- OPÇÕES DO MENU DE NAVEGAÇÃO -->
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#formation">Formação</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </a>
+      </div>
+    </nav>
+
+    <!-- HOME DA PAGINA -->
+    <header id="home" class="max-width">
+      <div class="home"> <!--APRESENTAÇÃO DO PORTFOLIO A ESQUERDA-->
+        <h1>Olá! Me chamo Renan Assis, Futuro Desenvolvedor Fullstack e esse é o meu Portfolio.</h1>
+        <p>Com esse Portfolio, quero fazer com que você me conheça um pouco mais e os projetos que já fiz.</p>
+        <a href="#about" class="botton about_botton">Saiba mais sobre mim...</a> <!--LINK COM CONEXÃO PARA O ABOUT-->
+      </div>
+    </header>
+
+    
+    <!-- SOBRE MIM -->
+    <section id="about" class="about max-width">
+        <h2 class="secondary-title">Sobre mim...</h2>
+        <div>
+        <h3 class="tertiary-title">
+          Um futuro Dev, apaixonado por tecnologia e games
+        </h3>
+        <p>
+          Eu me chamo Renan Assis, tenho 32 anos, natural do Rio de Janeiro.
+          Atualmente trabalho como Analista de Suporte, liderando um time em uma empresa de Automação Comercial para o Varejo.
+          <br>Estudante na Uninter e realizando um curso de especialização em Fullstack com JavaScript, na RocketSeat.
+          <br>Passo as horas vagas vendo filmes e séries com a esposa e jogando vídeo games.
+        </p>
+        </div>
+    </section>
+
+    <!-- FORMAÇÃO  -->
+    <section id="formation" class="formation">
+      <div class="skills__content max-width">
+        <h2 class="secondary-title">Formação</h2>
+        <p>Cursando Análise e Desenvolvimento de Sistemas - UNINTER<br>
+        Cursando Fullstack JS, Node e React - Cursando<br>
+        Inglês Intermediário</p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos</h2>
+        <div class=""></div>
+        <h3 class="tertiary-title">
+          Marcador de Hábitos
+        </h3>
+        <a href="https://renansassis.github.io/nlw-setup/" target="_blank">Clique aqui para acessar o site &rarr;</a>
+        <h3 class="tertiary-title">
+          Calendário da Copa do Mundo
+        </h3>
+        <a href="https://renansassis.github.io/nlw-setup/" target="_blank">Clique aqui para acessar o site &rarr;</a>
+        <h3 class="tertiary-title">
+          Venda de pacotes de viagens
+        </h3>
+        <a href="https://renansassis.github.io/projeto-flutuar/" target="_blank">Clique aqui para acessar o site &rarr;</a>
+        <h3 class="tertiary-title">
+          Empresa de CyberSecurança
+        </h3>
+        <a href="https://renansassis.github.io/Rocketsect/" target="_blank">Clique aqui para acessar o site &rarr;</a>
+        <h3 class="tertiary-title">
+          Treinos personalizados - Treineme 
+        </h3>
+        <a href="https://renansassis.github.io/stage2-treineme/" target="_blank">Clique aqui para acessar o site &rarr;</a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <footer id="contact">
+      <div class="contact__content max-width">
+        <h2 class="tertiary-title">Contato</h2>
+        <form action="">
+          <fieldset>
+            <div class="fieldset-wrapper">
+
+              <div class="input-wrapper">
+                <label for="event-title">Nome</label>
+                <input type="text" name="nome" id="event-nome"/>
+              </div>
+      
+              <div class="input-wrapper">
+                <label for="event-email">E-mail</label>
+                <input type="email" name="email" id="event-email"/>
+              </div>
+    
+              <div class="input-wrapper">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="event-info"></textarea>
+              </div>
+          <p class="contact__copyright">
+          © 2023 Renan Assis. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

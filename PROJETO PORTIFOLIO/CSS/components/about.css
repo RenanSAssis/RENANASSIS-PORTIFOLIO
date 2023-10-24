@@ -1,0 +1,6 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  scroll-margin-top: 20rem;
+}

@@ -1,0 +1,15 @@
+.projects {
+  margin-bottom: 16rem;
+  scroll-margin-top: 15rem;
+}
+
+.projects .projects__content {
+  max-width: 56rem;
+  text-align: center;
+  margin: 0 auto 6rem;
+
+}
+
+a:hover{
+  color: rgb(242, 2, 2);
+}
